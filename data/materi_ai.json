@@ -1,0 +1,39 @@
+{
+  "materi": [
+    {
+      "id": 1,
+      "judul": "Pengantar AI",
+      "isi": "AI atau Artificial Intelligence adalah teknologi yang membuat komputer bisa berpikir dan belajar seperti manusia. Jadi, komputer tidak hanya mengikuti perintah, tapi juga bisa belajar dari data dan membuat keputusan sendiri. Contohnya seperti chatbot, Google Assistant, dan Siri."
+    },
+    {
+      "id": 2,
+      "judul": "Contoh Penggunaan AI",
+      "isi": "AI sudah banyak digunakan di kehidupan sehari-hari. Misalnya:\n- Rekomendasi video di YouTube\n- Rekomendasi belanja di Tokopedia/Shopee\n- Chatbot seperti saya\n- Kamera HP yang bisa otomatis fokus\n- Google Maps yang memberi saran jalan tercepat"
+    },
+    {
+      "id": 3,
+      "judul": "Jenis-Jenis AI",
+      "isi": "Secara umum ada 3 jenis AI:\n1. Narrow AI: AI yang hanya bisa melakukan satu tugas (contohnya: AI di kamera HP)\n2. General AI: AI yang bisa berpikir seperti manusia (masih dikembangkan)\n3. Super AI: AI yang lebih pintar dari manusia (belum ada saat ini)"
+    },
+    {
+      "id": 4,
+      "judul": "Machine Learning",
+      "isi": "Machine Learning (ML) adalah bagian dari AI yang membuat komputer bisa belajar dari data tanpa diprogram langsung. Jadi, komputer belajar sendiri dari contoh yang diberikan. Contohnya: mengenali foto kucing dari ribuan gambar kucing."
+    },
+    {
+      "id": 5,
+      "judul": "Data dan Dataset",
+      "isi": "AI sangat bergantung pada data. Data adalah bahan ajar untuk AI. Dataset adalah kumpulan data yang digunakan untuk melatih AI. Semakin banyak dan bagus datanya, semakin pintar AI-nya. Contohnya: kumpulan foto wajah, suara, tulisan, dll."
+    },
+    {
+      "id": 6,
+      "judul": "Algoritma AI",
+      "isi": "Algoritma AI adalah cara atau langkah-langkah yang digunakan AI untuk belajar dan membuat keputusan. Ada banyak jenis algoritma seperti Decision Tree, KNN, dan Neural Networks. Ibaratnya ini adalah resep masakan bagi AI untuk 'memasak' data menjadi pengetahuan."
+    },
+    {
+      "id": 7,
+      "judul": "Tantangan dan Etika AI",
+      "isi": "AI memang hebat, tapi ada juga tantangannya. Seperti:\n- Privasi data pengguna\n- AI menggantikan pekerjaan manusia\n- Ketidakadilan jika data yang digunakan bias\nEtika AI penting agar teknologi digunakan secara adil dan aman untuk semua."
+    }
+  ]
+}

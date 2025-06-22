@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": ["hai", "halo", "hello", "assalamualaikum", "selamat pagi", "selamat siang", "selamat sore", "selamat malam"],
+      "responses": ["Halo! Senang bertemu kamu 😊", "Hai! Ada yang bisa aku bantu tentang AI?", "Selamat datang! Mau tanya-tanya soal AI atau mulai belajar?"]
+    },
+    {
+      "tag": "pengertian_ai",
+      "patterns": ["apa itu ai", "jelaskan ai", "ai itu apa sih", "artificial intelligence itu apa", "maksud dari ai"],
+      "responses": ["AI atau Artificial Intelligence adalah teknologi yang membuat komputer bisa berpikir dan belajar seperti manusia.", "AI adalah kecerdasan buatan, yaitu kemampuan komputer untuk belajar dari data dan mengambil keputusan."]
+    },
+    {
+      "tag": "tujuan_ai",
+      "patterns": ["tujuan ai", "kenapa ai dibuat", "ai dibuat untuk apa", "manfaat ai"],
+      "responses": ["AI dibuat agar komputer bisa membantu manusia menyelesaikan tugas-tugas seperti menganalisis data, menjawab pertanyaan, dan membuat keputusan."]
+    },
+    {
+      "tag": "contoh_penggunaan_ai",
+      "patterns": ["contoh ai", "ai dipakai di mana aja", "penggunaan ai", "contoh penggunaan ai", "aplikasi ai"],
+      "responses": ["AI digunakan di Google Maps, YouTube, chatbot, rekomendasi belanja online, dan kamera ponsel.", "Contohnya: chatbot seperti saya, Netflix yang menyarankan film, dan Google yang bisa melengkapi kata saat kamu ngetik."]
+    },
+    {
+      "tag": "kenapa_belajar_ai",
+      "patterns": ["kenapa harus belajar ai", "penting gak sih belajar ai", "alasan belajar ai", "kenapa belajar ai penting"],
+      "responses": ["Karena AI banyak dipakai di dunia kerja masa depan. Banyak pekerjaan akan dibantu oleh AI.", "AI adalah keterampilan masa depan. Semakin banyak bidang yang membutuhkan orang yang paham AI."]
+    },
+    {
+      "tag": "bedanya_ai_ml_dl",
+      "patterns": ["perbedaan ai ml dl", "bedanya ai sama machine learning", "ai itu sama kayak ml?", "deep learning itu apa"],
+      "responses": ["AI adalah payung besar. Di dalamnya ada Machine Learning (ML), dan di dalam ML ada Deep Learning (DL).", "ML adalah bagian dari AI. Deep Learning adalah bagian dari ML. Mereka semua saling terhubung."]
+    },
+    {
+      "tag": "ketakutan_ai",
+      "patterns": ["apakah ai berbahaya", "ai bisa menguasai manusia gak", "takut sama ai", "ai bikin manusia kehilangan kerja?"],
+      "responses": ["AI itu alat. Bisa bermanfaat kalau digunakan dengan baik. Tapi memang, beberapa pekerjaan bisa tergantikan.", "AI bisa menggantikan pekerjaan yang rutin, tapi juga menciptakan pekerjaan baru yang lebih kreatif."]
+    },
+    {
+      "tag": "siapa_bikin_ai",
+      "patterns": ["siapa yang menciptakan ai", "siapa yang buat ai", "asal mula ai"],
+      "responses": ["AI mulai dikembangkan sejak tahun 1950-an oleh ilmuwan komputer seperti Alan Turing dan John McCarthy.", "AI tidak dibuat oleh satu orang, tapi oleh banyak ilmuwan di seluruh dunia."]
+    },
+    {
+      "tag": "mau_belajar",
+      "patterns": ["saya mau belajar", "saya ingin belajar ai", "ajarkan saya ai", "mau mulai belajar ai", "bisa mulai belajarnya dari mana"],
+      "responses": ["Mantap! Yuk kita mulai belajar AI. Pilih materi berikut ini:\n1. Pengantar AI\n2. Contoh Penggunaan AI\n3. Jenis-Jenis AI\n4. Machine Learning\n5. Data dan Dataset\n6. Algoritma AI\n7. Tantangan dan Etika AI\n\nKetik angka materi yang ingin kamu pelajari, misalnya: 1"]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["terima kasih", "makasih ya", "thanks", "makasih banyak"],
+      "responses": ["Sama-sama! Kalau kamu mau tanya-tanya lagi, aku siap bantu 😊"]
+    },
+    {
+      "tag": "tidak_mengerti",
+      "patterns": ["gak ngerti", "saya bingung", "nggak paham", "gimana sih maksudnya"],
+      "responses": ["Gak apa-apa, pelan-pelan aja ya. Mau aku ulangi dengan cara yang lebih sederhana?", "Tenang aja, kalau bingung boleh tanya lagi kok!"]
+    },
+    {
+      "tag": "bukan_ai",
+      "patterns": ["kamu manusia?", "ini manusia atau robot?", "siapa kamu?"],
+      "responses": ["Aku chatbot yang dibuat untuk mengajarkan kamu tentang AI. Tapi aku bukan manusia ya 😊"]
+    }
+  ]
+}
