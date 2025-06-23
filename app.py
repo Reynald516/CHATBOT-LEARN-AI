@@ -125,5 +125,6 @@ def webhook():
         print("❌ ERROR di webhook:", e)
         return jsonify({"error": str(e)}), 500
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=7860)
+if _name_ == "_main_":
+    port = int(os.environ.get("PORT", 5000))  # Railway bakal ngisi PORT
+    app.run(host='0.0.0.0', port=port)
