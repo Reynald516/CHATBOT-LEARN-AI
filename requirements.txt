@@ -1,5 +1,5 @@
 Flask==2.3.3
-spacy==3.0.6
+spacy==3.7.2
 rapidfuzz==3.6.1
 requests==2.31.0
 protobuf==4.25.3
