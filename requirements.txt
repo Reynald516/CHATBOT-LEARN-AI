@@ -1,12 +1,10 @@
 Flask==2.3.3
-spacy==3.1.4
+spacy==3.0.6
 rapidfuzz==3.6.1
 requests==2.31.0
 protobuf==4.25.3
 google-generativeai==0.8.5
 gradio==3.50.2
-
-# Tambahan penting untuk build di Railway
 Cython
 setuptools
 wheel
