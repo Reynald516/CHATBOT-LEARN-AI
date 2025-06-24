@@ -13,6 +13,10 @@ from flask import Flask, request, jsonify
 # Inisialisasi Flask app
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return '✅ Chatbot AI Renal is Running!'
+
 # Load .env dan API key
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
@@ -126,5 +130,4 @@ def webhook():
         return jsonify({"error": str(e)}), 500
 
 if _name_ == "_main_":
-    port = int(os.environ.get("PORT", 5000))  # Railway bakal ngisi PORT
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=8000)
