@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '✅ Chatbot AI Renal is Running!'
+    return '✅ Chatbot AI Reynald is Running!'
 
 # Load .env dan API key
 load_dotenv()
